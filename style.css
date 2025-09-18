@@ -47,7 +47,7 @@ body {
   position: absolute;
   top: 63%;
   left: 3%;
-  background-image: url('./images/shape1.png');
+  background-image: url('./images/Shape1.png');
   background-repeat: no-repeat;
   background-size: contain;
   width: 333px;
@@ -1871,4 +1871,3 @@ button#playBtn:active {
 .cls-113 {
   fill: url(#linear-gradient-84);
 }
-
