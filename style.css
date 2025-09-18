@@ -493,9 +493,26 @@ button#playBtn:active {
 } */
 
 /* Responsive Queries */
-@media (min-width: 1440px) {
+
+@media (min-width: 1700px){
+  .hero{
+    height: 100vh;
+  }
+
+  .innerHero{
+    padding-top: 150px;
+  }
+  .innerHero h1{
+    font-size: 65px;
+  }
+  .shapeBox{
+    top: 73%;
+  }
+}
+
+@media (min-width: 1440px) and (max-width: 1680px)  {
   .hero {
-    /* height: 150vh; */
+    height: 100vh;
   }
 
   .carImg {
@@ -531,9 +548,9 @@ button#playBtn:active {
   } */
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1380px){
   .hero {
-    min-height: 100vh;
+    height: 100vh;
   }
 
   .carImg {
@@ -543,7 +560,7 @@ button#playBtn:active {
   }
 
   .innerHero h1 {
-    font-size: 45px;
+    font-size: 65px;
   }
 
   .innerHero h5 {
@@ -551,7 +568,7 @@ button#playBtn:active {
   }
 
   .shapeBox {
-    width: 270px;
+    width: 361px;
     left: 3%;
   }
 
@@ -601,10 +618,193 @@ button#playBtn:active {
     height: 16%;
   }
 }
-
-@media (max-width: 768px) {
-  .hero {
+/* @media (max-width: 991px) {
+    .hero {
     min-height: 60vh;
+  }
+
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .innerHero h5 {
+    font-size: 14px;
+  }
+
+  .hero img {
+    max-width: 90%;
+  }
+
+  section h2,
+  section h3 {
+    font-size: 1.4rem;
+  }
+
+  .shapeBox {
+    width: 230px;
+    left: 5%;
+  }
+
+  .carImg {
+    bottom: 7px;
+  }
+
+  .botWave {
+    max-width: 310px;
+    height: 207px;
+  }
+
+  .bot {
+    top: 11%;
+    left: 23%;
+    max-width: 200px;
+    height: 200px;
+  }
+
+  .lyrics {
+    max-width: 250px;
+    margin-top: 25px;
+  }
+
+  .SndSecHead {
+    font-size: 36px;
+  }
+
+  .para1 {
+    font-size: 16px;
+    margin-right: 50px;
+  }
+
+  .SndSecHeadt {
+    margin-top: 0px !important;
+  }
+
+  .rightWave {
+    height: 70%;
+  }
+
+  .logo1 {
+    max-height: 45px;
+  }
+
+  .btnLogin {
+    padding: 4px 25px;
+    font-size: 14px;
+  }
+
+  .ThreeHeading {
+    font-size: 36px;
+  }
+
+  .bg-Three {
+    padding-top: 52px;
+    padding-bottom: 30px;
+  }
+
+  .paraThree {
+    font-size: 14px;
+    max-width: 400px;
+    line-height: 1.5;
+  }
+
+  .aiLaptop {
+    top: 10%;
+    max-width: 300px;
+  }
+
+  .inteHeading {
+    font-size: 31px;
+  }
+
+  .bgLinear {
+    padding: 30px;
+  }
+
+  .checklist li {
+    font-size: 12px;
+    padding-left: 28px;
+  }
+
+  .checklist i::before {
+    left: 8px;
+  }
+
+  .boxPara {
+    padding: 30px;
+    font-size: 14px;
+  }
+
+  .bgLinear {
+    margin-bottom: 50px;
+  }
+
+  .dataHead {
+    font-size: 30px;
+  }
+
+  .mobidevice {
+    height: 150px;
+  }
+
+  .veeT {
+    margin-top: 40px;
+  }
+
+  .float-start.text-start.ps-5.pt-4 {
+    padding: 0px !important;
+  }
+
+  .btnLogin1 {
+    background-image: linear-gradient(to right, #00abde, #0077d9);
+    border-radius: 50px;
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+    font-size: 12px;
+  }
+
+  .footerLogo {
+    max-width: 150px;
+  }
+
+  .footer1 {
+    max-width: 100px;
+    height: 30px;
+  }
+
+  .copyRights {
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  .boldFoot {
+    font-size: 16px;
+  }
+
+  .footerBg li {
+    margin-bottom: 3px;
+  }
+
+  .footerBg li a {
+    font-size: 12px;
+  }
+
+  .wantHeading {
+    font-size: 50px;
+    letter-spacing: 3px;
+  }
+
+  .video-frame {
+    top: 15.6%;
+    right: 7.8%;
+    width: 30.8%;
+    height: 14.1%;
+  }
+} */
+
+@media (min-width: 577px) and (max-width: 991px){
+  .hero {
+    height: 50vh;
   }
 
   .hero h1 {
@@ -790,10 +990,11 @@ button#playBtn:active {
   .btnLogin {
     padding: 5px 25px;
     font-size: 12px;
+    margin-right: 10px;
   }
 
   .hero {
-    height: 50vh !important;
+    height: 40vh !important;
   }
 
   .innerHero h5 {
@@ -886,7 +1087,7 @@ button#playBtn:active {
 
   .bg-Three {
     padding-top: 50px;
-    padding-bottom: 80px;
+    padding-bottom: 250px;
   }
 
   .ThreeHeading {
@@ -898,8 +1099,8 @@ button#playBtn:active {
   .aiLaptop {
     position: absolute;
     right: 12%;
-    top: 34%;
-    max-width: 330px;
+    top: 33%;
+        max-width: 300px;
   }
 
   .bgLinear {
@@ -999,6 +1200,222 @@ button#playBtn:active {
     border-radius: 12px;
   }
 }
+/* @media (max-width: 480px) {
+  .btnLogin {
+    padding: 7px 15px;
+        font-size: 10px;
+  }
+
+  .hero {
+    height: 30vh !important;
+  }
+
+  .innerHero h5 {
+    font-size: 10px;
+    margin-top: 20px;
+  }
+
+  .hero h1 {
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 1.1;
+    margin-top: 10px;
+  }
+
+  .contact-section h2 {
+    font-size: 1.2rem;
+  }
+
+  .btnLogin1 {
+    background-image: linear-gradient(to right, #00abde, #0077d9);
+    border-radius: 50px;
+    color: white;
+    text-decoration: none;
+    padding: 5px 25px;
+    font-size: 12px;
+  }
+
+  .logo1 {
+    max-height: 45px;
+  }
+
+  .shapeBox {
+        top: 64%;
+        left: 5%;
+        width: 110px;
+  }
+
+  .hero img {
+    max-width: 100%;
+  }
+
+  .carImg {
+    bottom: 17px;
+    left: -10px;
+    position: relative;
+  }
+
+  .innerHero {
+    padding: 2px 20px 20px 20px;
+  }
+
+  .botWave {
+    max-width: 200px;
+    height: 200px;
+  }
+
+  .bot {
+    top: 0%;
+    left: 32%;
+    width: 100%;
+    max-width: 160px;
+    height: 190px;
+  }
+
+  .lyrics {
+    max-width: 215px;
+    margin-top: 10px;
+  }
+
+  .rightWave {
+    height: 55%;
+  }
+
+  .SndSecHead {
+    font-size: 35px;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .para1 {
+    font-size: 16px;
+    text-align: center;
+    padding: 0px 20px;
+    margin-right: 0px;
+  }
+
+  .lineimg {
+    display: none;
+  }
+
+  .bg-Three {
+    padding-top: 50px;
+    padding-bottom: 80px;
+  }
+
+  .ThreeHeading {
+    font-size: 28px;
+    line-height: 1.4;
+    text-align: center;
+  }
+
+  .aiLaptop {
+    position: absolute;
+        right: 12%;
+        top: 37%;
+        max-width: 250px;
+  }
+
+  .bgLinear {
+    margin-top: 280px;
+    margin-bottom: 50px;
+    padding: 25px;
+  }
+
+  .inteHeading {
+    font-size: 32px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+  }
+
+  .checklist li {
+    padding-left: 30px;
+  }
+
+  .checklist i::before {
+    left: 10px;
+    top: 6px;
+  }
+
+  .boxPara {
+    padding: 10px;
+    font-size: 13px;
+  }
+
+  .dataHead {
+    font-size: 35px;
+  }
+
+  .mobidevice {
+    height: 150px;
+  }
+
+  .veeT {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .wantHeading {
+    font-size: 40px;
+  }
+
+  .float-start.text-start.ps-5.pt-4 {
+    padding-left: 10px !important;
+  }
+
+  .contact-section {
+    margin-bottom: 0px;
+    height: 100%;
+  }
+
+  .footerLogo {
+    width: 50%;
+    margin-left: 80px;
+  }
+
+  .footerApp {
+    display: flex;
+    justify-content: center;
+  }
+
+  .boldFoot {
+    text-align: center;
+  }
+
+  .footerBg li {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .copyRights {
+    text-align: center;
+  }
+
+  .feeterBorder i::before {
+    position: absolute;
+    left: 33px;
+    top: 7px;
+  }
+
+  .feeterBorder1 i::before {
+    left: 133px;
+  }
+
+  .video-frame {
+    position: absolute;
+    top: 38.5%;
+    right: 19.2%;
+    width: 61.3%;
+    height: 10.4%;
+    overflow: hidden;
+    z-index: 2;
+    border-radius: 12px;
+  }
+  .ThreePara{
+    font-size: 16px;
+  }
+} */
 
 .cls-1 {
   fill: url(#linear-gradient);
