@@ -312,7 +312,7 @@ footer a:hover {
 }
 
 .ditBg {
-  background-image: url(./images/ditBg.png);
+  background-image: url('./images/ditBg.png');
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -1925,3 +1925,4 @@ button#playBtn:active {
 .cls-113 {
   fill: url(#linear-gradient-84);
 }
+
