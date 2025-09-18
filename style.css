@@ -994,16 +994,16 @@ button#playBtn:active {
   }
 
   .hero {
-    height: 40vh !important;
+    height: 27vh !important;
   }
 
   .innerHero h5 {
     font-size: 10px;
-    margin-top: 20px;
+    margin-top: 10px;
   }
 
   .hero h1 {
-    font-size: 21px;
+    font-size: 25px;
     letter-spacing: 2px;
     line-height: 1.1;
     margin-top: 10px;
@@ -1027,9 +1027,9 @@ button#playBtn:active {
   }
 
   .shapeBox {
-    top: 66%;
-    left: 5%;
-    width: 135px;
+    top: 61%;
+    left: 6%;
+    width: 144px;
   }
 
   .hero img {
@@ -1044,6 +1044,7 @@ button#playBtn:active {
 
   .innerHero {
     padding: 30px;
+    padding-top: 10px;
   }
 
   .botWave {
